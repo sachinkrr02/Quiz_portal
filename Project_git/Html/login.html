@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/CSS/register.css">
+</head>
+
+<body>
+    <h1 id="Main">Login</h1>
+    <div id="regi">
+        <form onsubmit="login()">
+            <small><span id="error" style="color: red"></span></small>
+            <label for="email">User Name:</label>
+            <br>
+            <input id="email" class="space" type="email" name="email" id="">
+            <br><br>
+            <label for="password">Password:</label>
+            <br>
+            <input id="password" class="space" type="password" name="password" id="">
+            <br><br>
+            <label for="Submit"></label>
+            <input class="button" type="submit" name="submit" value="Sign In">
+            <br>
+            <br>
+            <span>
+                <a class="link" href="#" onclick="forgotPass()">Forgot Password ? </a>
+                <br>
+                <a class="link" href="/Html/register.html"> Register here </a>
+            </span>
+        </form>
+    </div>
+</body>
+
+</html>

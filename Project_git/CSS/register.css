@@ -1,0 +1,105 @@
+body{
+    background-image: url("/Images/loginbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;  
+}
+input[type="text"]
+input[type="password"]
+input[type="textarea"]
+input[type="date"]
+input[type="tel"]
+input[type="email"]
+input[type="submit"]
+input[type="label"]
+{
+    padding: 20px;
+    border: 12px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 100px;
+    
+}
+input[type="submit"]{
+    color:darkblue;
+    background-color:#FFBD35;
+    text-align: center;  
+    border-radius: 5px;  
+    height: 55px;
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    font-weight: bolder;
+    font-size: 37px;
+    padding-bottom: 4px;
+
+}
+input[type="label"]
+{
+    font-size: xx-large;
+}
+#Main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+#regi
+{
+    width: 40%;
+    text-align:left;
+    overflow: hidden;
+     padding: 30px;
+     border-radius: 50px;
+     border-style: solid;
+     box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+     font-size: 30px;
+     color: darkblue;
+     font-weight: 600;
+ }
+
+.space
+{
+    width: 98%;
+    height: 40px;
+   border-radius: 7px;
+}
+.space:hover{
+    background-color:lightgrey;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: chocolate;
+    font-size: 40px;
+    transition: 1s;
+}
+h1{
+    color: darkblue;
+    font-size: 120px;
+    font-weight: 900;
+}
+h1:hover{
+    text-decoration: underline;
+    transition: 2s;
+}
+
+.link:hover{
+    color: brown;
+    text-decoration: underline;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: chocolate;
+    font-weight: 900;
+}

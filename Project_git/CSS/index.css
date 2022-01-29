@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: grey;
+  padding: 0;
+}
+nav{
+  background-color: black;
+  height: 8vh;
+  padding-right: 20px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+}
+ nav li a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  padding-top:20px;
+  text-align: center;
+  margin-left: 130px;
+}
+nav li a:hover{
+  text-underline-offset: 3px;
+  color: orange;
+  transition: 0.5s;
+  
+}
+nav h1{
+  padding-left: 30px;
+  justify-content: left;
+  align-items: left;
+  color: aliceblue;
+  font-size: 45px;
+}
+nav h1:hover{
+  font-size: 55px;
+  color: orange;
+  transition: 2s;
+}
+.slider img{
+  width: 100%;
+  height: 600px;
+}
+.d-block w-100{
+  width: 100%;
+  height: 200px;
+  opacity: 0.8;
+}
+.image{
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  transition: 1s all ease-in-out;
+}
+.image:hover{
+  transform: scale(1.2); 
+}
+.section{
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#html-section{
+  width: 100%;
+  height: 70%;
+  background-color:lightsteelblue;
+  border-bottom-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 2%;
+
+}
+#css-section{
+  width: 100%;
+  height: 70%;
+  background-color:lightsalmon;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin-bottom: 2%;
+}
+#css-section .image{
+  justify-content: right;
+  align-items: right;
+  
+}
+#js-section{
+  width: 100%;
+  height: 70%;
+  background-color:pink;
+  border-bottom-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 2%;
+}
+
+.toget{
+  padding:1% 4% 2% 5%;
+}
+div ul{
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 50px;
+  justify-content: center;
+  align-items: center;
+}
+div ul li{
+  text-decoration: none;
+  font-size: larger;
+  padding:5px;
+}
+.content li { 
+  font-size: 30px;
+  text-decoration: none;
+}
+.content h1{
+  font-size: 400%;
+  font-weight: bolder;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-right: 25%;
+}
+.content h1:hover{
+  font-size: 450%;
+  opacity: 0.8;
+  transition: 1s;
+}
+
+button{
+  width: 300px;
+  height: 60px;
+  margin-top: 5%;
+  margin-left:20%;
+  font-size: 35px;
+  background-color: green;
+  border-radius: 40px 40px;
+  color:white;
+  border: black solid;
+}
+button:hover{
+  font-size: 40px;
+  opacity: 0.8;
+  transition: 2s;
+  background-color: maroon;
+}
+#js-section button{
+  margin-left: 215px;
+}
+
+footer{
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  color: wheat;
+  font-size: larger;
+  padding-top: 1%;
+}
+footer div{
+  padding-left: 3%;
+}
+
+footer h1{
+  font-size: 40px;
+  padding: 5px;
+}
+footer h2{
+  font-size: 23px;
+  padding: 5px;
+}
+footer pre{
+  font-size: 23px;
+padding-left: -500px;
+}
+footer p{
+  font-size: 25px;
+  text-align: center;
+}
+#social{
+  text-align: center;
+}
+#social img{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.slideshow-container{
+  height: 835px;
+  width: 100%;
+  background-color: grey;
+}
+.sliderimage {
+  width: 98%;
+  height: 800px;
+  align-items: center;
+  border-bottom-right-radius: 150px;
+}
+
+.mySlides {
+  display: none;
+}
